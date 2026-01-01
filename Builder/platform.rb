@@ -1,12 +1,12 @@
 module Common
   class Platform
     def self.unity_export
-      return '/Applications/Unity-Export/Unity.app/Contents/MacOS/Unity' if is_mac_os
+      return '/Applications/Unity/Hub/Editor/2022.3.62f3/Unity.app/Contents/MacOS/Unity' if is_mac_os
       return 'C:\Program Files\Unity-Export\Editor\Unity.exe'
     end
 
     def self.unity_publish
-      return '/Applications/Unity-Publish/Unity.app/Contents/MacOS/Unity' if is_mac_os
+      return '/Applications/Unity/Hub/Editor/2022.3.62f3/Unity.app/Contents/MacOS/Unity' if is_mac_os
       return 'C:\Program Files\Unity-Publish\Editor\Unity.exe'
     end
 
